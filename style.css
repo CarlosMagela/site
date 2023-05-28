@@ -1,31 +1,42 @@
+body{
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:white;
+}
+
+main{
+    width: 85%;
+    margin: auto;
+    min-width:400px;
+    max-width: 900px;}
 
 .banner{
 width:1340px;
-height:600px;
-margin-top:-190px;
+height:500px;
+margin-top:-90px;
 margin-left:auto;
 background-image:url('img/bg-3.jpg');
 background-size: cover;
-background-position:center;
+background-position:right center;
 font-size: 40px;
 color: white;
 font-size: 35px;
-background-position: cover;
 
 
 }
 
-h1{
-    margin-top: 200px;
+.banner h1{
+    margin-top: 100px;
     padding:40px;
     text-shadow: 2px 4px 4px black;
 }
 
 h4{
-    text-align:400px;
+    margin-left:0px;
     font-size: 40px;
     text-shadow: 2px 4px 4px black;
     color:blue;
+    
 }
 
 .nav1{
@@ -46,13 +57,23 @@ a:link{
    
 }
 
-.hero-content{
-    margin-left: 300px;
-    margin-top: -500px;
-    font-size: 25px;
-    padding: 20px;
+.hero-content {
+ margin: 0px auto 0;
+ margin-top: -470px;
+ margin-left: 90px;
+ width: 60%;
+ text-align: center;
+
+ 
 
 
+}
+
+.hero-content h1{
+    margin-top: 400px;
+    padding:40px;
+    text-shadow: 2px 4px 4px black;
+    
 }
 
 li{
@@ -63,9 +84,10 @@ list-style-type: none;
 }
 
 .hero-final{
-    margin-left: 300px;
+    margin-left: 90px;
     padding: 20px ;
     font-size: 25px;
+    text-align: justify;
 
 
 }
@@ -75,7 +97,8 @@ list-style-type: none;
     width: 1350px;
     height: 40px;
     margin-top: 400px;
-    background-color: burlywood;
+    background-color:rgba(0, 0, 0, 0.7);
+
     text-align: center;
     margin-left: 0px;
 }
