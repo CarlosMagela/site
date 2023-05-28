@@ -60,7 +60,7 @@ a:link{
 .hero-content {
  margin: 0px auto 0;
  margin-top: -470px;
- margin-left: 90px;
+ margin-left: 290px;
  width: 60%;
  text-align: center;
 
@@ -84,7 +84,7 @@ list-style-type: none;
 }
 
 .hero-final{
-    margin-left: 90px;
+    margin-left: 290px;
     padding: 20px ;
     font-size: 25px;
     text-align: justify;
