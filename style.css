@@ -7,7 +7,7 @@ body{
 main{
     width: 85%;
     margin:0;
-    min-width:400px;
+    min-width:200px;
     max-width: 900px;}
 
 .banner{
@@ -34,25 +34,27 @@ font-size: 35px;
 h4{
     margin-left:0px;
     font-size: 40px;
-    text-shadow: 2px 4px 4px black;
-    color:black;
+    text-shadow: 2px 2px px black;
+    color:brown;
     
 }
 
 .nav1{
     
-    width:120px;
+    width:280px;
+
     margin-top: 90px;
     font-size: 30px;
     font-family:'Courier New', Courier, monospace ;
-    
-    
+        
 
 }
 
 a:link{
     text-decoration: none;
     font-style:oblique;
+    
+  
     
    
 }
@@ -64,10 +66,6 @@ a:link{
  width: 80%;
  height: 300px;
  text-align: center;
-
-
- 
-
 
 }
 
@@ -99,11 +97,13 @@ list-style-type: none;
 
 .rodape{
     margin-bottom: 0px;
+    margin-top: auto;
     width: 1350px;
     height: 40px;
     margin-top: 800px;
     background-color:rgba(0, 0, 0, 0.7);
     text-align: center;
+    padding: auto;
     margin-left: 0px;
 }
 
