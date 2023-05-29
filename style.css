@@ -1,18 +1,26 @@
 body{
-    margin:0;
+    margin:auto;
+    padding: 0;
+    min-width: 320px;
+    max-width:1250px;
     font-family: 'Courier New', Courier, monospace;
     background-color:white;
+    max-height:1350px;
 }
 
 main{
-    width: 85%;
-    margin:0;
+    margin:auto;
+    padding: 0;
     min-width:200px;
-    max-width: 700px;}
+    max-width:1250px;}
 
 .banner{
-width:1340px;
-height:500px;
+margin: auto;
+padding: 0;
+max-width:1250px ;
+min-width:320px;
+min-height: 600px;
+max-height:800px;
 margin-top:-90px;
 margin-left:auto;
 background-image:url('img/bg-3.jpg');
@@ -21,14 +29,19 @@ background-position:right center;
 font-size: 40px;
 color: white;
 font-size: 35px;
-
-
 }
 
 .banner h1{
+    min-width:320px;
+    max-width: 700px;
     margin-top: 100px;
-    padding:40px;
+    padding:10px;
     text-shadow: 2px 4px 4px black;
+}
+
+h1{
+    min-width:30px;
+    max-width: 50px;
 }
 
 h4{
@@ -41,35 +54,40 @@ h4{
 
 .nav1{
     
-    width:280px;
-
-    margin-top: 90px;
+    min-width:10px;
+    max-width: 220px;
+    height:600px;
+    margin-top:100px;
     font-size: 30px;
     font-family:'Courier New', Courier, monospace ;
-        
+    display: inline-block;  
+ 
+    margin-left: 10px; 
 
 }
 
 a:link{
     text-decoration: none;
     font-style:oblique;
-    
-  
-    
-   
+    min-width:100px;
+
 }
 
 .hero-content {
- margin: 0;
- margin-top: -470px;
- margin-left: 290px;
- width: 80%;
+ margin:auto;
+ padding: 0;
+ margin-top: -650px;
+ margin-left: 220px;
+ min-width:220px;
+ max-width:900px ;
  height: 300px;
  text-align: center;
 
 }
 
 .hero-content h1{
+    min-width:320px;
+    max-width: 900px;
     margin-top: 400px;
     padding:40px;
     text-shadow: 2px 4px 4px black;
@@ -84,11 +102,14 @@ list-style-type: none;
 }
 
 .hero-final{
+    margin: 0;
+    padding: 0;
     margin-left: 290px;
     padding: 20px ;
     font-size: 25px;
     text-align: justify;
-    width: 700px;
+    max-width: 700px;
+    min-width:320px;
     height: 300px;
     
 
@@ -96,11 +117,10 @@ list-style-type: none;
 }
 
 .rodape{
-    margin-bottom: 0px;
-    margin-top: auto;
-    width: 1350px;
+    margin-bottom:0px;
+    width:auto;
     height: 40px;
-    margin-top: 800px;
+    margin-top:auto;
     background-color:rgba(0, 0, 0, 0.7);
     text-align: center;
     padding: auto;
