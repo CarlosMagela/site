@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding: 0;
-    min-width: 320px;
+    min-width: 300px;
     max-width:1250px;
     font-family: 'Courier New', Courier, monospace;
     background-color:white;
@@ -100,7 +100,7 @@ height: 600px;
 margin-bottom:0px;
 background-image:url('img/bg-3.jpg');
 background-size: cover;
-background-position:left center;
+background-position:right center;
 
 }
 
@@ -131,7 +131,7 @@ h4{
     max-width: 580px;
     margin-top:300px;
     margin-bottom:30px;
-    margin-left: 40px;
+    margin-left:0px;
     height:30px;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace ;
@@ -147,8 +147,7 @@ h4{
     min-width:10px;
     max-width: 580px;
     margin-top:0px;
-    margin-bottom:30px;
-    margin-left: 40px;
+    margin-left:0;
     height:30px;
     font-size: 30px;
     font-family:'Courier New', Courier, monospace ;
@@ -162,8 +161,7 @@ h4{
     min-width:10px;
     max-width: 580px;
     margin-top:0px;
-    margin-bottom:30px;
-    margin-left: 40px;
+    margin-left:0;
     height:30px;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace ;
@@ -177,8 +175,7 @@ h4{
     min-width:10px;
     max-width: 580px;
     margin-top:0px;
-    margin-bottom:30px;
-    margin-left: 40px;
+    margin-left:0;
     height:30px;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace ;
@@ -211,9 +208,8 @@ a:link{
     text-decoration: none;
     font-style:oblique;
     font-size: 20px;
-    min-width:10px;
     display:inline-block;
-    margin-left:23px;
+    margin-left:-40;
    }
 
 .hero-content h1{
