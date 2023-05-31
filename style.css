@@ -89,7 +89,7 @@ margin-top: 0;
    }
 
 .tabela{
-    margin-left: 25px;
+    margin-left: auto;
     border-radius: 2px;
 }
 .banner{
@@ -270,6 +270,35 @@ list-style-type: none;
 
 
 #container{
+    margin: auto;
+    display:flexbox;
+    min-width:320px ;
+    max-width: 800px;
+    flex-wrap: wrap;
+    
+
+}
+
+#container{
+
+    margin: auto;
     display: flex;
+    background-size: cover;
+    background-position:right center ;
+
+    min-width: 35px;
+    max-width: 600px;
+    min-height: 35px;
+    max-height: 600px;
+
+
+
+}
+
+#container img{
+    min-width: 60px;
+    max-width: 200px;
+    min-height: 40px;
+    max-height: 200px;
 
 }
