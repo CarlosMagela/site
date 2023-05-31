@@ -28,7 +28,7 @@ main{
     margin-right:0;
     min-width:220px;
     max-width:1250px ;
-    height: 300px;
+    height: 1200px;
     text-align: center;
  
   
@@ -42,8 +42,9 @@ main{
     margin-right:0;
     min-width:220px;
     max-width:1250px ;
-    height: 300px;
+    height:1000px;
     text-align: center;
+    margin-bottom: 40px;
  
   
    }
@@ -56,7 +57,7 @@ main{
     margin-right:0;
     min-width:220px;
     max-width:1250px ;
-    height: 300px;
+    height: 700px;
     text-align: center;
  
   
@@ -188,17 +189,23 @@ h4{
 
 .redessociais li{
 min-width:1px;
-max-width: 600px;
+max-width: 300px;
 height: 40px;
 font-size: 20px;
-margin-top:800px;
-margin-left: 50px;
+margin-top:0;
+margin-left:0;
 font-family:'Courier New', Courier, monospace ;
 display: inline-block;  
-
 position:relative;
 border-right:1px solid #c0c0c0;
+background-color: rgb(164, 139, 107);
 
+}
+
+.redessociais a:link{
+    color: yellowgreen;
+    font-style:italic;
+    font-family: cursive;
 
 }
 
@@ -259,4 +266,10 @@ list-style-type: none;
     text-align: center;
     padding: auto;
     margin-left: 0px;
+}
+
+
+#container{
+    display: flex;
+
 }
