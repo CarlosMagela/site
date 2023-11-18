@@ -1,8 +1,9 @@
 body{
     margin:0;
     padding: 0;
-    min-width: 300px;
-    max-width:1440px;
+    min-width: 360px;
+    width:100%;
+    max-width: 1440px;
     font-family: 'Courier New', Courier, monospace;
     background-color:white;
     
@@ -14,8 +15,8 @@ main{
     margin-top: 60px;
     margin-right:0;
     margin-left: 0;
-    min-width:200px;
-    max-width:1440px;
+    min-width:360px;
+    width:100%;
   
 }
 
@@ -26,9 +27,9 @@ main{
     margin-top: 100px;
     margin-left:110px;
     margin-right:0;
-    min-width:220px;
+    min-width:360px;
     max-width:1040px ;
-    height: 1200px;
+    height:auto;
     text-align: center;
  
   
@@ -40,9 +41,9 @@ main{
     margin-top: 100px;
     margin-left:20px;
     margin-right:0;
-    min-width:220px;
-    max-width:1440px ;
-    height:1000px;
+    min-width:360px;
+    max-width:1040px ;
+    height:auto;
     text-align: center;
     margin-bottom: 40px;
  
@@ -53,42 +54,31 @@ main{
     margin:0;
     padding: 0;
     margin-top: 100px;
-    margin-left:20px;
-    margin-right:0;
-    min-width:220px;
-    max-width:1440px ;
-    height: 700px;
-    text-align: center;
+    margin-left:110px;
  
+    min-width:360px;
+    max-width:1040px ;
+    height:auto;
+    text-align: center;
   
    }
 
-
-       
-.hero-content-formacao {
+   .hero-content-formacao{
     margin:0;
     padding: 0;
     margin-top: 100px;
-    margin-left:20px;
-    margin-right:0;
-    min-width:220px;
-    max-width:1440px ;
-    height: 300px;
+    margin-left:240px;
+    min-width:360px;
+    max-width:1040px ;
+    height: auto;
     text-align: center;
  
   
    }
 
-   .c li{
-display: inline-block;
-position: relative;
-width: 300px;
-height: 300px;
-margin-top: 0;
 
-   }
 .tabela{
-    margin-left: 250px;
+    margin-left:0px;
 }
 
  td{
@@ -99,26 +89,38 @@ margin-top: 0;
 
 .tabela p{
     font-size: 30px;
+    font-style: bolder;
 }
 .banner{
 margin:0;
 padding: 0;
-max-width:1440px ;
-min-width:340px;
+max-width:1440px;
+min-width:360px;
 height: 600px;
-margin-bottom:0px;
+margin-bottom:0;
 background-image:url('img/bg-3.jpg');
 background-size: cover;
-background-position:right center;
+background-position:center;
 
 }
-
+.banner-formacao{
+    margin:0;
+    padding: 0;
+    max-width:1440px;
+    min-width:360px;
+    height: 600px;
+    margin-bottom:0;
+    background-image:url('img/bg-3.jpg');
+    background-size: cover;
+    background-position:center;
+    
+    }
 .titulo h1{
     min-width:320px;
-    max-width:440px;
-    margin-top: -300px;
-    font-size: 70px;
-    margin-left: 630px;
+    max-width:350px;
+    margin-top:-100px;
+    font-size: 40px;
+    margin-left:30px;
     color: white;
     font-style: italic;
     padding:20;
@@ -128,8 +130,8 @@ background-position:right center;
     min-width:320px;
     max-width:740px;
     margin-top: -500px;
-    font-size: 80px;
-    margin-left:100px;
+    font-size: 50px;
+    margin-left:30px;
     color: white;
     font-style: italic;
     padding:20;
@@ -146,129 +148,28 @@ h4{
 p{
     font-size: 30px;
 }
-.nav1{
-    margin-left: 430px;
+.nav1 {
+    margin-left:30px;
+    margin-top: 500px;
 }
 
 
 
 .nav1 li{
-    
     min-width:10px;
-    max-width: 580px;
-    margin-top: 300px;
-   
+    max-width: 380px;
+    margin-top: 350px;
     height:20px;
-    align-items: center;
-    font-size: 30px;
+    align-items:left;
+    font-size: 70px;
     font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
+    display:inline;   
     position:relative;
-    text-shadow: 2px 2px 2px black ;
-    position:relative;
+    text-shadow: 3px 3px 3px black ;
    
-}
-
-
-.nav2 li{
-    
-    min-width:10px;
-    max-width: 580px;
-    margin-top: 300px;
-   
-    height:20px;
-    align-items: center;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-    text-shadow: 2px 2px 2px black ;
-    position:relative;
-   
-}
-    
-
-
-.nav3 li{
-    
-    min-width:10px;
-    max-width: 580px;
-    margin-top: 300px;
-   
-    height:20px;
-    align-items: center;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-    text-shadow: 2px 2px 2px black ;
-    position:relative;
-   
-}
-
-.nav1-contato li{
-    
-    min-width:10px;
-    max-width: 580px;
-    margin-top:0px;
-    margin-left:0;
-    height:30px;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-    border-left:2px solid #c0c0c0;
-    border-bottom:2px solid #c0c0c0 ;
-    border-radius: 10px;
-    text-shadow: 1px 1px 1px black ;
-
-}
-.nav1-sobre li{
-    
-    min-width:10px;
-    max-width: 580px;
-    margin-top:0px;
-    margin-left:0;
-    height:30px;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-    border-left:2px solid #c0c0c0;
-    border-bottom:2px solid #c0c0c0 ;
-    border-radius: 10px;
-    text-shadow: 1px 1px 1px black ;
-}
-.nav1-formacao li{
-    
-    min-width:10px;
-    max-width: 580px;
-    margin-top:0px;
-    margin-left:0;
-    height:30px;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-    border-left:2px solid #c0c0c0;
-    border-bottom:2px solid #c0c0c0 ;
-    border-radius: 10px;
-    text-shadow: 1px 1px 1px black ;
-}
-.redessociais li{
-    display:inline-block;
-    width: 50px;
-    height: 30px;
-    
    }
 
-
-
-.redessociais img{
-width: 50px;
-height: 50px;
-display: inline-block;
-}
+   
 
 
 
@@ -279,10 +180,134 @@ display: inline-block;
     font-size: 50px;
     display:inline-block;
     margin-left:0;
-    border-bottom:3px solid black ;
-    border-left: 3px solid black;
+    border-bottom:5px solid black ;
+    border-left: 5px solid black;
     border-radius: 25px;
+    text-shadow: 2px 2px 2px solid black;
+
    }
+
+
+   .nav1-sobre li{
+    
+    min-width:10px;
+    max-width: 380px;
+    margin-top: 350px;
+    height:20px;
+    align-items:left;
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace ;
+    display:inline;   
+    position:relative;
+    text-shadow: 3px 3px 3px black ;
+   }
+
+.nav1-sobre a:link{
+    margin: 0;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 50px;
+    display:inline-block;
+    margin-left:0;
+    border-bottom:5px solid black ;
+    border-left: 5px solid black;
+    border-radius: 25px;
+    text-shadow: 2px 2px 2px solid black;
+   }
+
+
+
+.nav1-contato li{
+    
+    min-width:10px;
+    max-width: 380px;
+    margin-top: 350px;
+    height:20px;
+    align-items:left;
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace ;
+    display:inline;   
+    position:relative;
+    text-shadow: 3px 3px 3px black ;
+   }
+    
+   
+
+
+.nav1-contato a:link{
+    margin: 0;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 50px;
+    display:inline-block;
+    margin-left:0;
+    border-bottom:5px solid black ;
+    border-left: 5px solid black;
+    border-radius: 25px;
+    text-shadow: 2px 2px 2px solid black;
+   }
+
+   .nav1-formacao li{
+    margin-right:0;
+    min-width:10px;
+    max-width: 380px;
+    margin-top: 350px;
+    height:20px;
+    align-items:left;
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace ;
+    display:inline;   
+    position:relative;
+    text-shadow: 3px 3px 3px black ;
+    }
+
+
+
+.nav1-formacao a:link{
+    margin: 0;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 50px;
+    display:inline-block;
+    margin-left:0;
+    border-bottom:5px solid black ;
+    border-left: 5px solid black;
+    border-radius: 25px;
+    text-shadow: 2px 2px 2px solid black;
+   }
+
+
+.redessociais li{
+    display:inline-block;
+    width: 50px;
+    height: 30px;
+    margin-bottom:0;
+    
+   }
+
+   .redessociais-home li{
+   display: inline-block;
+    width: 50px;
+    height: 70px;
+    margin-bottom: 0;
+    
+   }
+
+.redessociais img{
+width: 50px;
+height: 50px;
+
+
+}
+
+.redessociais-home img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: auto;
+    
+    }
+
 
    a:hover{
     text-transform: uppercase;
@@ -291,7 +316,7 @@ display: inline-block;
 
 .hero-content h1{
     min-width:320px;
-    max-width: 1440px;
+    max-width: 1040px;
     margin-top: 40px;
     padding:40px;
     text-shadow: 2px 4px 4px black;
@@ -306,54 +331,22 @@ display: inline-block;
     
 }
 
-li{
-margin-top:70px;
-list-style-type: none;
-
-}
-
-
-/*
-.hero-final{
-    margin: 0;
-    padding: 0;
-    margin-left: 290px;
-    padding: 20px ;
-    font-size: 25px;
-    text-align: justify;
-    max-width: 700px;
-    min-width:320px;
-    height: 300px;
-    
-
-
-}*/
-
 
 
 .rodape{
     margin-bottom:0;
-    width:auto;
-    height: 60px;
+    min-width:360px;
+    max-width: 1440px;
+    width:100%;
+    height:100px;
     background-color:rgba(0, 0, 0, 0.7);
     text-align: center;
     margin-top:auto;
     margin-left: 0px;
-    padding: 15px;
+    padding: 20px;
     opacity: .8;
 }
 
-.rodape-formacao{
-    margin-bottom:0;
-    width:auto;
-    height: 60px;
-    background-color:rgba(0, 0, 0, 0.7);
-    text-align: center;
-    margin-top:1400px ;
-    margin-left: 0px;
-    padding: 15px;
-    opacity: .8;
-}
 
 
 #container{
@@ -373,22 +366,22 @@ list-style-type: none;
     display: flex;
     background-size: cover;
     background-position:right center ;
-    gap:85px;
-    margin-left:350px ;
+    gap:70px;
+    margin-left:280px ;
     align-content: stretch;
     min-width: 35px;
-    max-width: 600px;
+    max-width: 800px;
     min-height: 35px;
-    max-height: 600px;
+    max-height: 700px;
 
 }
 
 #container img{
  
     min-width: 60px;
-    max-width: 220px;
+    max-width: 320px;
     min-height: 40px;
-    max-height: 200px;
+    max-height: 300px;
     border: 2px solid black;
 
 }
@@ -400,7 +393,213 @@ list-style-type: none;
 
 }
 
+#container img:hover{
+    transform: scale(1.2);
+}
 
-@media (min-width: 900px) {
-   
+
+
+
+
+
+@media (max-width: 450px) {
+    .titulo h1{
+        font-size: 30px;
+        text-align: left;
+        
+    }
+    .nome h1{
+        font-size:2em ;
+        text-align: left;
+    }
+
+    .hero-content-formacao h4{
+        
+        margin-left:10px;
+       
+
+    }
+    .tabela{
+        margin-left: 10px;
+      
+    }
+
+
+   #container{
+    margin-left: 40px;
+    display:block;  
+    width: 350px;
+    height:auto;
+    margin-bottom:auto;
+   }
+    #container img{
+        width: 400px;
+        height: 200px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+
+    }
+    a{text-decoration: none;
+    
+    }
+    .hero-content{
+        margin-left: 10px;
+       width: 334px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #content-final{
+        margin-top:640px;
+        height: auto;
+        margin-bottom: 140px;
+        width: 334px;
+        margin-left: 25px;
+    
+    }
+
+    .hero-content p{
+        font: 12px;
+    }
+
+    .hero-content h4{
+        font-size: 30px;
+    }
+    .rodape{
+        margin: 0;
+        padding:10px;
+        position: absolute;
+        margin-bottom: 0;
+        height: 80px;
+        min-width:360px;
+        max-width:450px;
+        width:100%;
+        
+       }
+
+    .rodape p{
+        font-size: 20px;
+    }
+    .banner-formacao{
+        align-items: center;
+        width:100%;
+        
+    }
+    .banner{
+        align-items: center;
+       
+        width:100%;
+        
+    }
+   .hero-content-formacao{
+    margin: 0;
+    padding: 0;
+        width: 420px;
+        margin-left: 30px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .redessociais-home{
+        min-width:360px;
+        width: 350px;
+        height: 150px;
+        display: inline-block;
+        margin-top:10px;
+        margin-bottom: 0;
+        
+    }
+
+    .redessociais-home li{
+        display: inline;
+        width: 350px;
+        height: 80px;
+      
+        
+       }
+
+    .nav1 a:link{
+        
+        font-size: 25px;
+        margin-top: 0;
+        width: 200px;
+        text-shadow: none;
+    }
+
+    
+    .nav1-contato a:link{
+        font-size: 25px;
+        margin-top:0;
+        width: 200px;
+        text-shadow:none;
+    }
+
+    .nav1-sobre a:link{
+        font-size: 25px;
+        margin-top:0;
+        width: 200px;
+        text-shadow: none;
+        }
+
+    .nav1-formacao a:link{
+        font-size: 25px;
+        margin-top:0;
+        width: 200px;
+        text-shadow: none;
+        display: block;
+    }
+
+
+
+
+.nav1-sobre li{
+ 
+    display: contents;
+    margin-left: 20px;
+    margin-right: 0;
+    height: auto;
+} 
+.nav1-contato li{
+    margin-top:40px;
+    display: contents;
+    margin-left: 20px;
+    margin-right: 0;
+    height: auto;
+} 
+.nav1-formacao li{
+    margin-top:40px;
+    display: contents;
+    margin-left: 20px;
+    margin-right: 0;
+    height: auto;
+
+} 
+.nav1 li{
+    
+    display: contents;
+    margin-left: 20px;
+    margin-right: 0;
+    height: auto;
+}
+.hero-content-contato{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: auto;
+    width: 400px;
+}
+
+.hero-content-contato p{
+    width: 330px;
+    font-size: 22px;
+}
+
+.hero-content-contato h4{
+    font-size:2.5em;
+}
+
+.sub{
+    font-size:2em ;
+}
     }
